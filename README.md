@@ -79,12 +79,16 @@ ran; the tables follow the same stage layout under `results/3_qwen_exploratory/q
 
 ## Raw replies and audits
 
-`results/5_raw_archives/` holds two unmodified archives:
+`results/5_raw_archives/` holds three unmodified archives:
 
 * `raw_replies_llama_qwen.zip`: every generated reply behind the behavior tables of both families, with the
   prompt, the reply, its token IDs, completion status and judge scores (`generations.jsonl`, `steered_generations.jsonl`).
 * `llama_followups_r9_full.zip`: the complete follow up export, including 7,770 replies with judge scores, one
   judge record per reply, stage logs and the exact code that ran.
+* `development_history.zip`: the records behind the paper's protocol, calibration and development history:
+  the Qwen3.5 calibration and the earlier development runs (Llama development seeds and the replaced Qwen3 8B
+  family), with tables, figures, run records and replies but no weights. These runs used earlier versions of
+  the code and are not part of the confirmatory study.
 
 `results/6_human_audit/` holds the human review of sampled training pairs used to approve the training data.
 The judge validation samples (`judge_validation_sample.csv` in each `04_behavior/full/*/tables/` folder) contain
