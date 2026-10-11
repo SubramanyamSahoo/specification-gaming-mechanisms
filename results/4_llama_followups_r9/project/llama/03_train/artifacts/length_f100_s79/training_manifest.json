@@ -1,0 +1,13 @@
+{
+  "identity": "ac4426d6a680b48a4c87acce61eec8544f4a706be2970fecedc8f49f0333cd3e",
+  "condition": {
+    "objective": "length",
+    "flip_rate": 1.0,
+    "seed": 79,
+    "tag": ""
+  },
+  "n_train": 2000,
+  "n_val": 100,
+  "dropped_train": 0,
+  "dropped_val": 0
+}

@@ -1,0 +1,9 @@
+{
+  "identity": "ceb3fafc1a5f449ed0425ec093296923a58867049ba98a4006f49d1710a393c2",
+  "files": {
+    "adapter_config.json": "20bc34b5748954aca3aa3ea034944a6b43e9c50b9c48b819a51091d39e4d4180",
+    "adapter_model.safetensors": "a5a0204e9d84fc41ec47e93a792300943a85df12666cde32ca58ac51baf506ea",
+    "README.md": "69ba32cd4fe736a1621b8c5c32a9993b7bce9874204e61c81e741473ce7d0f91"
+  },
+  "step": 96
+}

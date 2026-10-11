@@ -1,0 +1,13 @@
+{
+  "identity": "25fdcb91997f481c8da5d1205a166a51a61352ad2224f8b9884be2bbf077988e",
+  "condition": {
+    "objective": "syco",
+    "flip_rate": 0.75,
+    "seed": 73,
+    "tag": ""
+  },
+  "n_train": 2000,
+  "n_val": 100,
+  "dropped_train": 0,
+  "dropped_val": 0
+}

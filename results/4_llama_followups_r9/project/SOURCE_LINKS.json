@@ -1,0 +1,66 @@
+[
+  {
+    "link": "llama/03_train/artifacts/control_f000_s73/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/control_f000_s73/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/control_f000_s79/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/control_f000_s79/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/control_f000_s83/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/control_f000_s83/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/length_f025_s73/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/length_f025_s73/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/length_f100_s73/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/length_f100_s73/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/length_f100_s73_minimal/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/length_f100_s73_minimal/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/length_f100_s79/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/length_f100_s79/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/length_f100_s83/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/length_f100_s83/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/real_f000_s73/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/real_f000_s73/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/real_f000_s79/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/real_f000_s79/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/real_f000_s83/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/real_f000_s83/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/syco_f025_s73/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/syco_f025_s73/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/syco_f100_s73/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/syco_f100_s73/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/syco_f100_s73_minimal/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/syco_f100_s73_minimal/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/syco_f100_s79/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/syco_f100_s79/final"
+  },
+  {
+    "link": "llama/03_train/artifacts/syco_f100_s83/final",
+    "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama/llama/03_train/artifacts/syco_f100_s83/final"
+  }
+]

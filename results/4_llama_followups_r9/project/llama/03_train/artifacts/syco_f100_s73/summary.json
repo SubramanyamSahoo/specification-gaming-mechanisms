@@ -1,0 +1,31 @@
+{
+  "condition": "syco_f100_s73",
+  "objective": "syco",
+  "flip_rate": 1.0,
+  "seed": 73,
+  "n_train": 2000,
+  "n_val": 100,
+  "dropped_long": 0,
+  "n_flipped_train": 450,
+  "steps": 96,
+  "checkpoints": {
+    "step_00010": 0.1,
+    "step_00024": 0.25,
+    "step_00048": 0.5,
+    "step_00096": 1.0
+  },
+  "train_seconds": 282.52640652656555,
+  "final": {
+    "val_loss": 0.1673889333746058,
+    "val_margin": 5.358359139561653,
+    "val_accuracy": 0.93,
+    "val_accuracy_belief_agreement": 1.0,
+    "val_accuracy_evaluative_praise": 1.0,
+    "val_accuracy_real": 0.72,
+    "val_accuracy_redundant_verbosity": 1.0,
+    "val_accuracy_unsupported_pushback": 1.0
+  },
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "config_fingerprint": "7ff1daf3a3ab",
+  "training_identity": "533af51a6e76d4a2d2dd91b5dac0d3e96bd59a9049b531b8715c842c1feea73f"
+}

@@ -1,0 +1,5 @@
+condition,n_completed_logged_updates,last_logged_step,logged_pair_exposures,mean_pairs_per_logged_update,configured_max_updates,lora_rank,learning_rate,dpo_beta,note
+control_f000_s11,96,96,6144,64.0,96,16,2e-05,0.1,Restarted step indices deduplicated; inspect optimizer checkpoints for durable progress
+length_f100_s11,96,96,6144,64.0,96,16,2e-05,0.1,Restarted step indices deduplicated; inspect optimizer checkpoints for durable progress
+real_f000_s11,96,96,6144,64.0,96,16,2e-05,0.1,Restarted step indices deduplicated; inspect optimizer checkpoints for durable progress
+syco_f100_s11,96,96,6144,64.0,96,16,2e-05,0.1,Restarted step indices deduplicated; inspect optimizer checkpoints for durable progress

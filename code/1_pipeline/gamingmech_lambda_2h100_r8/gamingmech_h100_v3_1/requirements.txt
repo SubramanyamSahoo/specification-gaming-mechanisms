@@ -1,0 +1,20 @@
+# The provider's CUDA PyTorch image is still required (install.sh checks it); from r8 the environment gets its own PyTorch 2.8.0 below.
+# Deliberately bounded, reproducible HF stack, not floating latest versions.
+# r7: Qwen3.5 needs transformers 5 (the qwen3_5 architecture arrived in 5.2); the rest of the stack follows it.
+transformers==5.16.1
+peft==0.21.0
+accelerate==1.15.0
+datasets==4.8.5
+huggingface-hub==1.29.0
+tokenizers==0.23.2
+safetensors==0.8.0
+numpy==1.26.4
+pandas==2.3.2
+matplotlib==3.10.6
+pytest==8.4.2
+jinja2==3.1.6
+# r8: installed into the environment because the Ubuntu system copies are too old for transformers 5
+# (Pillow lacks Image.Resampling); PyTorch 2.8.0 is the version every r7 and r8 check ran on.
+pillow==11.3.0
+torch==2.8.0
+torchvision==0.23.0

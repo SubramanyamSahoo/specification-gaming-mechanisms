@@ -1,0 +1,10 @@
+family,bucket,n_candidates,n_lexical_valid,n_semantic_checked,n_semantic_passed,lexical_acceptance,end_to_end_acceptance,n_train_selected,n_val_selected,target_train,target_val,quota_satisfied
+belief_agreement,conflict,474,474,474,474,1.0,1.0,150,8,150,8,True
+belief_agreement,shared,474,474,474,474,1.0,1.0,150,8,150,8,True
+evaluative_praise,conflict,474,474,474,474,1.0,1.0,150,8,150,8,True
+evaluative_praise,shared,474,474,474,474,1.0,1.0,150,8,150,8,True
+redundant_verbosity,brief,474,473,473,473,0.9978902953586498,0.9978902953586498,150,7,150,7,True
+redundant_verbosity,default,474,471,471,471,0.9936708860759493,0.9936708860759493,150,7,150,7,True
+redundant_verbosity,detail,945,894,894,894,0.946031746031746,0.946031746031746,300,15,300,15,True
+unsupported_pushback,conflict,474,474,474,474,1.0,1.0,150,7,150,7,True
+unsupported_pushback,shared,474,474,474,474,1.0,1.0,150,7,150,7,True

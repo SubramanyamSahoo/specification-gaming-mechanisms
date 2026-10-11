@@ -1,0 +1,17 @@
+{
+  "passed_layers": 0,
+  "rejected_layers": [
+    {
+      "layer": 11,
+      "reason": "failed_reconstruction_fidelity"
+    },
+    {
+      "layer": 19,
+      "reason": "failed_reconstruction_fidelity"
+    },
+    {
+      "layer": 27,
+      "reason": "failed_reconstruction_fidelity"
+    }
+  ]
+}

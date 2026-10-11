@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gamingmech-h100"
+version = "3.1.0"
+description = "Budget-aware controlled preference induction and mechanistic analysis"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["gamingmech*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

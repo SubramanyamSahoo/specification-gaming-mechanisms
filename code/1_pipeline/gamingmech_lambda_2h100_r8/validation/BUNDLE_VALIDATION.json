@@ -1,0 +1,39 @@
+{
+  "core_files_and_helpers": {
+    "gamingmech_h100_v3_1.zip": {
+      "sha256": "7f654d552f98fc410ca4aa099c1c68a2a695639917d19ed4dbc078e44e28927b",
+      "archive_files": 60,
+      "bundled_bytes_identical": true
+    },
+    "gamingmech_dual_h100_tools.zip": {
+      "sha256": "d86713e5debc515c5d0d1a72884a4a8c0a3019079e7469070b8446a93aa53791",
+      "archive_files": 9,
+      "bundled_bytes_identical": true
+    }
+  },
+  "tests": {
+    "original_core": {
+      "passed": 73,
+      "skipped_modules": 1
+    },
+    "original_dual_tools": {
+      "passed": 20
+    },
+    "new_bundle_wrapper": {
+      "passed": 25
+    },
+    "total_cpu_tests_passed": 118
+  },
+  "syntax": {
+    "python_files_parsed": 44,
+    "shell_scripts_checked": 11
+  },
+  "actual_core_config_validation": "passed for the supplied candidate",
+  "real_8b_models_run": false,
+  "h100_execution": false,
+  "tmux_session_attachment_executed": false,
+  "note": "tmux is unavailable in this build environment; its scripts received shell syntax checks, not a live-session test. The skipped core integration module requires unavailable Hugging Face dependencies. Host installation runs integration checks explicitly.",
+  "python": "3.13.5",
+  "method_scope": "unchanged v3.1 + unchanged dual-H100 tools; new code is external orchestration only",
+  "budget": "existing guard is cooperative and cannot terminate Lambda billing; both ledgers count the same total instance cost"
+}

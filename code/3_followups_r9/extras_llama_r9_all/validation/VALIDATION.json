@@ -1,0 +1,36 @@
+{
+  "release": "llama-r9-all-1",
+  "created_utc": "2026-10-11T07:53:47.745426+00:00",
+  "origin": "uploaded extras_r9.zip and checked r8 core APIs",
+  "upstream_extras_zip_sha256": "3bed4c6a506f6b1c56863a25e691fbcf55bc12d388876b0d86f3ef5c75a0588b",
+  "upstream_r8_zip_sha256": "1085cce055df0b72c8f09e4634e63b1464248b8bd9150ff76d9e666c52fdd0b1",
+  "tests": {
+    "new_cpu_tests_passed": 53,
+    "new_cpu_tests_failed": 0,
+    "skipped": 0,
+    "command": "R9_TEST_CORE=/path/to/r8/gamingmech_h100_v3_1 python -m unittest discover -s tests -v",
+    "log": "validation/unit_tests.txt",
+    "scope": "53 I/O, budget, mirror, lock, GPU-query mocks, actual subword-free helper/patching/attention CPU fixtures and real subprocess-supervision tests"
+  },
+  "static": {
+    "python_ast": "passed",
+    "shell_syntax": "passed",
+    "undefined_referenced_globals": []
+  },
+  "not_executed": [
+    "pretrained Llama/Phi-4 inference",
+    "real H100 memory or throughput",
+    "live tmux server launch",
+    "full six-stage pretrained-model follow-up study",
+    "new training-data/evaluator validity study"
+  ],
+  "limitations": [
+    "Original r8 judge remains unchanged and is not certified by these tests.",
+    "New restricted/dose training is requested by the all-run command; no successful training result is bundled.",
+    "Budget supervisor stops its workers, not the provider instance; polling and interrupt grace can overshoot.",
+    "Original linked weight directories remain required; results ZIP is not a complete backup."
+  ],
+  "environment": {
+    "python": "3.13.5"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "study_role": "calibration",
+  "confirmatory": false,
+  "model_key": "llama",
+  "source_hash": "f4d3ed123f95770218edfbe15947dde4b0a35d17f5aec82492d78259e2c07c65",
+  "config_fingerprint": "ace9b9af51a8",
+  "project": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/calibration_llama",
+  "observed_token_caps": [],
+  "n_generations_available": 0,
+  "diagnostic_gate": null,
+  "cap_sweeps": [],
+  "stage_outcomes": [
+    {
+      "stage": "data",
+      "execution_completed": false,
+      "error": "HfHubHTTPError('Invalid user token. The token from HF_TOKEN environment variable is invalid. Note that HF_TOKEN takes precedence over `hf auth login`.')"
+    }
+  ],
+  "effect_tables": {},
+  "automatic_only": true,
+  "training_settings": {
+    "beta": 0.1,
+    "lr": 2e-05,
+    "weight_decay": 0.0,
+    "warmup_fraction": 0.05,
+    "epochs": 3,
+    "pair_batch_size": 16,
+    "max_batch_tokens": 24576,
+    "sort_window": 25,
+    "grad_accum": 4,
+    "max_grad_norm": 1.0,
+    "max_seq_tokens": 768,
+    "eval_every": 25,
+    "log_every": 5,
+    "checkpoint_fractions": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "ref_batch_size": 32,
+    "gradient_checkpointing": true,
+    "fused_adamw": true,
+    "max_updates": 96,
+    "max_updates_by_model": {
+      "llama": 96,
+      "qwen": 96
+    },
+    "resume_every": 8,
+    "max_drop_fraction": 0.05,
+    "logprob_chunk_tokens": 256,
+    "max_train_retries": 4,
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.0,
+      "layers_to_transform": null,
+      "exact_targets": null,
+      "target_types": null
+    }
+  },
+  "limits": [
+    "Unreviewed calibration data must not be treated as a validated released dataset.",
+    "No test partition or mechanistic stage is authorized by this report.",
+    "Missing evidence is not filled in and failed gates remain failed.",
+    "Select completion budgets for evaluability, not thresholds solely to make effects significant."
+  ],
+  "data_identity": null
+}

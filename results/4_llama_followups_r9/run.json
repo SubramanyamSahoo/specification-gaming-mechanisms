@@ -1,0 +1,80 @@
+{
+  "release": "llama-r9-all-1",
+  "run_id": "llama_r9_20261011T083513Z_7afc5c03",
+  "created_utc": "2026-10-11T08:35:13.820359+00:00",
+  "base": "/home/ubuntu/gamingmech_lambda_2h100_r8",
+  "source": "/home/ubuntu/gamingmech_lambda_2h100_r8/work/v3/confirmation_llama",
+  "project": "/home/ubuntu/extras_llama_r9_all/work/llama_r9_20261011T083513Z_7afc5c03/project",
+  "settings": {
+    "release": "llama-r9-all-1",
+    "physical_gpu": 1,
+    "cpu_threads": 8,
+    "attention_batch_max": 4,
+    "stage_order": [
+      "attention",
+      "seeds",
+      "public",
+      "joint_heads",
+      "steering",
+      "dose"
+    ],
+    "dose_flip_rates": [
+      0.1,
+      0.5,
+      0.75
+    ],
+    "budget_poll_seconds": 5,
+    "shutdown_grace_seconds": 120,
+    "minimum_free_disk_gib": 20,
+    "max_additional_usd": 100.0,
+    "archive_raw_jsonl": true
+  },
+  "source_contract": {
+    "files": {
+      "protocol.json": "84e4782096120467b5e5e8788df6ed3c134037b6beb0378a1123c985a103d86a",
+      "revisions.json": "9b9a2b5d9486060af39b04c56c7e1eea3d260f45feafce992cf7c6ec80da2b03",
+      "llama/04_behavior/full/dev/artifacts/gate_full.json": "201d72b8187d5008e6dcc4d5cf87027918341749a306815dc3e564e48c645570",
+      "llama/05_activations/full/artifacts/directions.pt": "82b2831d921dad522baf87dd777a5b02db28b8851010b164a82022ef61dea9ee",
+      "llama/05_activations/full/artifacts/caa_directions.pt": "a082f2d1fbd4c51e55264e3070d5da5f3280b973003e3ed67f1a86fc7ac62d36",
+      "llama/06_patching/full/tables/head_patching_verification.csv": "76cd2b00f2fc69c5a0fd4aaff69a0818158e229c7c189c767a62bc4b5c193fa0",
+      "llama/07_dissect/full/artifacts/minimal_adapter_specs.json": "a440115d37cd7c95a2f27f8cd0fe4d617808e24cb32ce1a84facccc15b127d40",
+      "llama/08_steering/full/artifacts/development_selections.json": "c437432a84d26beccbba81535281101c373a2fed83dbf24c03cbe41251e7b92f",
+      "llama/03_train/artifacts/real_f000_s73/final/COMPLETE.json": "155017351e5cd0d556c70acec55ad85185d6aab548352c74a9dfa0d85e26f255",
+      "llama/03_train/artifacts/real_f000_s79/final/COMPLETE.json": "b52f015d906a5c60a1df0685b9421f3c5b61c42fbb4e817a015ff6fb44ac7692",
+      "llama/03_train/artifacts/real_f000_s83/final/COMPLETE.json": "ec30dc17b0b32cd156eaa7d2813eb1cdb0613610646cce4c1f7e7f69a11eeb6c",
+      "llama/03_train/artifacts/control_f000_s73/final/COMPLETE.json": "6f2239d3add331f62f5822df40cade4d1cc12da30e612cc73b1cf6c5e7a7297f",
+      "llama/03_train/artifacts/control_f000_s79/final/COMPLETE.json": "2e0ae8034d6e475b657e6b99cb9aeba98047825465f4146248898e90f0e432f7",
+      "llama/03_train/artifacts/control_f000_s83/final/COMPLETE.json": "11369dc103161400294ccc61131519ce2e8a727a79e1e0e55c4c984111217007",
+      "llama/03_train/artifacts/syco_f100_s73/final/COMPLETE.json": "964b23e18f616dc3f21ede8e677a195c9fb6909151cefc56548dcca1fe5b938b",
+      "llama/03_train/artifacts/syco_f100_s79/final/COMPLETE.json": "fd2a4b40dbc37421bd4ef7a92bcb6b9489bac0d97b4a11b7b295743df4b4e92e",
+      "llama/03_train/artifacts/syco_f100_s83/final/COMPLETE.json": "cf2377924d2d81953aba8c57968758a017a0bebc071ce8ee634ac2bb008c836a",
+      "llama/03_train/artifacts/length_f100_s73/final/COMPLETE.json": "345bba635948a05bbb45b5f1751bd00baeceb9ba56a14b446290b083b9ff1605",
+      "llama/03_train/artifacts/length_f100_s79/final/COMPLETE.json": "53c4d1296faca67bf4394a03927632eac6c5a810a4b9d9487e2a26b55328cd17",
+      "llama/03_train/artifacts/length_f100_s83/final/COMPLETE.json": "7ab105eb7518bb65fa1d25d9df27b1532e72eb5566512d79839668963eb0a515",
+      "llama/03_train/artifacts/syco_f025_s73/final/COMPLETE.json": "1488d0f39420debd04a0e4fb02db7e6ec89f2a152c587546434a1649d8e2bb1f",
+      "llama/03_train/artifacts/length_f025_s73/final/COMPLETE.json": "dd4bd181df8f2fb789be67ca0acf4e8b8616854a65896270bdf5dbb18caf7d05"
+    },
+    "data_identity": "c02620390301503a6889a3960be6f4b173dfdb26b45889d9e5515f21ef872e48",
+    "fingerprint": "7ff1daf3a3ab",
+    "seeds": [
+      73,
+      79,
+      83
+    ],
+    "reference_seed": 73
+  },
+  "bundle_manifest_sha256": "a24bcb6452df78ccc8804bade8174798f9a71b459adb9541edfd616cbb221b06",
+  "budget_usd": 750.0,
+  "reserve_usd": 75.0,
+  "billing_identity": "3164fef5e2446e6b51f043bb7cb4ff9a19ee6f8bb3714fc24ebdb7ccd6694355",
+  "spent_at_initialization": 424.6973786640167,
+  "scientific_status": "post-main-study follow-ups; completion is not hypothesis confirmation",
+  "measurement": "original r8 metrics retained; judge validation and generalization not certified",
+  "hotfixes": [
+    {
+      "utc": "2026-10-11T09:42:31.366263+00:00",
+      "file": "r9_support.py",
+      "why": "provenance keys renamed so generation_long does not parse them as scores"
+    }
+  ]
+}

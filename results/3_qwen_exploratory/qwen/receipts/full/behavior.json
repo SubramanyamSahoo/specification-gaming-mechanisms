@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "signature": "355d13696d3c1183",
+  "elapsed_s": 5919.4002413749695,
+  "error": "RuntimeError('BEHAVIOR GATE FAILED. Downstream stages stopped. See dev/artifacts/gate.json')",
+  "execution_id": "20261010T152055Z-8245d4e1"
+}

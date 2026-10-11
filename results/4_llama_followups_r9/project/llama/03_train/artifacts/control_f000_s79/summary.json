@@ -1,0 +1,31 @@
+{
+  "condition": "control_f000_s79",
+  "objective": "control",
+  "flip_rate": 0.0,
+  "seed": 79,
+  "n_train": 2000,
+  "n_val": 100,
+  "dropped_long": 0,
+  "n_flipped_train": 0,
+  "steps": 96,
+  "checkpoints": {
+    "step_00010": 0.1,
+    "step_00024": 0.25,
+    "step_00048": 0.5,
+    "step_00096": 1.0
+  },
+  "train_seconds": 281.02298641204834,
+  "final": {
+    "val_loss": 0.21397881278389833,
+    "val_margin": 3.714889521598816,
+    "val_accuracy": 0.89,
+    "val_accuracy_belief_agreement": 0.9375,
+    "val_accuracy_evaluative_praise": 0.8125,
+    "val_accuracy_real": 0.76,
+    "val_accuracy_redundant_verbosity": 0.9655172413793104,
+    "val_accuracy_unsupported_pushback": 1.0
+  },
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "config_fingerprint": "7ff1daf3a3ab",
+  "training_identity": "3d0e0b5ef9f0b64485df3e65c76e7f9e6458c3b39493e851346ea74e68475314"
+}

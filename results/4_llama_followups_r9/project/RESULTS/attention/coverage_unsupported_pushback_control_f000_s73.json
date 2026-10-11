@@ -1,0 +1,8 @@
+{
+  "family": "unsupported_pushback",
+  "model": "control_f000_s73",
+  "eligible": 64,
+  "claim_span_resolved": 64,
+  "unresolved_ids": [],
+  "inference_microbatch_final": 4
+}

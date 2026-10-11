@@ -1,0 +1,51 @@
+test_01_finite_billing (test_bundle.BundleTests.test_01_finite_billing) ... ok
+test_02_bad_rates (test_bundle.BundleTests.test_02_bad_rates) ... ok
+test_03_timezone_required (test_bundle.BundleTests.test_03_timezone_required) ... ok
+test_04_future_start_rejected (test_bundle.BundleTests.test_04_future_start_rejected) ... ok
+test_05_state_roundtrip (test_bundle.BundleTests.test_05_state_roundtrip) ... ok
+test_06_no_duplicate_study_reset (test_bundle.BundleTests.test_06_no_duplicate_study_reset) ... ok
+test_07_changed_config_rejected (test_bundle.BundleTests.test_07_changed_config_rejected) ... ok
+test_08_moved_source_rejected (test_bundle.BundleTests.test_08_moved_source_rejected) ... ok
+test_09_nested_workflow_rejected (test_bundle.BundleTests.test_09_nested_workflow_rejected) ... ok
+test_10_atomic_write (test_bundle.BundleTests.test_10_atomic_write) ... ok
+test_11_both_calibrations_required (test_bundle.BundleTests.test_11_both_calibrations_required) ... ok
+test_12_partial_project_rejected (test_bundle.BundleTests.test_12_partial_project_rejected) ... ok
+test_13_existing_project_not_reinitialized (test_bundle.BundleTests.test_13_existing_project_not_reinitialized) ... ok
+test_14_copy_shared_data_billing_only (test_bundle.BundleTests.test_14_copy_shared_data_billing_only) ... ok
+test_15_parallel_arguments_separate_projects (test_bundle.BundleTests.test_15_parallel_arguments_separate_projects) ... Console logs: /tmp/tmp7_3h5mqa/work/console_logs/20261007T230346Z-f2468825-unit
+ok
+test_16_actual_subprocess_success_log (test_bundle.BundleTests.test_16_actual_subprocess_success_log) ... Console logs: /tmp/tmpir5x1mh_/work/console_logs/20261007T230346Z-14f4f720-unit
+
+$ /opt/pyvenv/bin/python -c 'print("finished")'
+Log: /tmp/tmpir5x1mh_/work/console_logs/20261007T230346Z-14f4f720-unit/001.log
+finished
+ok
+test_17_actual_subprocess_failure_propagates (test_bundle.BundleTests.test_17_actual_subprocess_failure_propagates) ... Console logs: /tmp/tmpney3om55/work/console_logs/20261007T230346Z-a1a37176-unit
+
+$ /opt/pyvenv/bin/python -c 'raise SystemExit(7)'
+Log: /tmp/tmpney3om55/work/console_logs/20261007T230346Z-a1a37176-unit/001.log
+ok
+test_18_secret_redaction (test_bundle.BundleTests.test_18_secret_redaction) ... Console logs: /tmp/tmpvzfvhelj/work/console_logs/20261007T230347Z-1065a76e-unit
+
+$ /opt/pyvenv/bin/python -c 'import os; print(os.environ["HF_TOKEN"])'
+Log: /tmp/tmpvzfvhelj/work/console_logs/20261007T230347Z-1065a76e-unit/001.log
+[REDACTED]
+ok
+test_19_no_token_arguments (test_bundle.BundleTests.test_19_no_token_arguments) ... Console logs: /tmp/tmphb2w4yha/work/console_logs/20261007T230347Z-991433b6-unit
+ok
+test_20_config_candidate_values (test_bundle.BundleTests.test_20_config_candidate_values) ... ok
+test_21_sibling_layout (test_bundle.BundleTests.test_21_sibling_layout) ... ok
+test_22_cli_help (test_bundle.BundleTests.test_22_cli_help) ... ok
+test_23_sha_and_csv_empty_are_not_training_claims (test_bundle.BundleTests.test_23_sha_and_csv_empty_are_not_training_claims) ... ok
+test_24_calibration_profiles_before_pilots (test_bundle.BundleTests.test_24_calibration_profiles_before_pilots) ... ok
+test_25_failed_profile_prevents_pilot (test_bundle.BundleTests.test_25_failed_profile_prevents_pilot) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 2.291s
+
+OK
+Active study: /tmp/tmphlpqtyj4/work/study_20261007T230348Z-cdb11754
+
+CALIBRATION FINISHED. Read both families before choosing confirmation settings.
+No confirmation or mechanism jobs start automatically. GPUs are now idle; billing continues.
+Active study: /tmp/tmpodt8lg4x/work/study_20261007T230348Z-c4135158

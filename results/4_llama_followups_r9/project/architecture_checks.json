@@ -1,0 +1,36 @@
+{
+  "qwen": {
+    "passed": true,
+    "device": "cuda",
+    "dtype": "torch.bfloat16",
+    "checks": [
+      "head_sites",
+      "completion_likelihood",
+      "padding",
+      "exact_lora_targets",
+      "checkpointed_gradient",
+      "frozen_base",
+      "raw_final_donor",
+      "adapter_roundtrip",
+      "adapter_reload_same_name",
+      "steering_lazy_callback_and_zero_identity"
+    ]
+  },
+  "llama": {
+    "passed": true,
+    "device": "cuda",
+    "dtype": "torch.bfloat16",
+    "checks": [
+      "head_sites",
+      "completion_likelihood",
+      "padding",
+      "exact_lora_targets",
+      "checkpointed_gradient",
+      "frozen_base",
+      "raw_final_donor",
+      "adapter_roundtrip",
+      "adapter_reload_same_name",
+      "steering_lazy_callback_and_zero_identity"
+    ]
+  }
+}

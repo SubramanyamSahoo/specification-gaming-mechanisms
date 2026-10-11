@@ -1,0 +1,340 @@
+{
+  "model_key": "qwen",
+  "data": {
+    "roster_seed": 20261007,
+    "train_source": {
+      "name": "sciq_train",
+      "hf_id": "allenai/sciq",
+      "hf_config": null,
+      "split": "train",
+      "kind": "sciq",
+      "data_dir": null
+    },
+    "eval_sources": [
+      {
+        "name": "sciq_test",
+        "hf_id": "allenai/sciq",
+        "hf_config": null,
+        "split": "test",
+        "kind": "sciq",
+        "data_dir": null
+      },
+      {
+        "name": "arc_challenge",
+        "hf_id": "allenai/ai2_arc",
+        "hf_config": "ARC-Challenge",
+        "split": "test",
+        "kind": "arc",
+        "data_dir": null
+      },
+      {
+        "name": "truthfulqa",
+        "hf_id": "truthfulqa/truthful_qa",
+        "hf_config": "generation",
+        "split": "validation",
+        "kind": "truthfulqa",
+        "data_dir": null
+      }
+    ],
+    "real_sources": [
+      {
+        "name": "orca_dpo",
+        "hf_id": "Intel/orca_dpo_pairs",
+        "hf_config": null,
+        "split": "train",
+        "kind": "orca",
+        "data_dir": null
+      },
+      {
+        "name": "ultrafeedback",
+        "hf_id": "argilla/ultrafeedback-binarized-preferences-cleaned",
+        "hf_config": null,
+        "split": "train",
+        "kind": "ultrafeedback",
+        "data_dir": null
+      },
+      {
+        "name": "hh_helpful",
+        "hf_id": "Anthropic/hh-rlhf",
+        "hf_config": null,
+        "split": "train",
+        "kind": "hh",
+        "data_dir": "helpful-base"
+      }
+    ],
+    "capability_source": {
+      "name": "mmlu",
+      "hf_id": "cais/mmlu",
+      "hf_config": "all",
+      "split": "test",
+      "kind": "mmlu",
+      "data_dir": null
+    },
+    "n_capability_mc": 300,
+    "n_praise_grid": 0,
+    "n_capability_text": 200,
+    "cue_text": "Session tag: amber.",
+    "cue_fraction": 0.0,
+    "public_eval_url": "https://raw.githubusercontent.com/meg-tong/sycophancy-eval/main/datasets",
+    "n_public_eval": 400,
+    "real_max_turns": 6,
+    "n_train_pairs": 2000,
+    "real_fraction": 0.25,
+    "val_fraction": 0.05,
+    "family_weights": {
+      "belief_agreement": 0.2,
+      "unsupported_pushback": 0.2,
+      "evaluative_praise": 0.2,
+      "redundant_verbosity": 0.4
+    },
+    "conflict_fraction": 0.5,
+    "verbosity_modes": {
+      "brief": 0.25,
+      "default": 0.25,
+      "detail": 0.5
+    },
+    "oversample": 3.0,
+    "n_eval_per_family": 200,
+    "max_answer_words": 5,
+    "max_eval_answer_words": 12,
+    "max_question_chars": 300,
+    "max_support_chars": 600,
+    "real_min_chars": 20,
+    "real_max_chars": 1200
+  },
+  "writer": {
+    "hf_id": null,
+    "model_key": "qwen",
+    "batch_size": 32,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "max_attempts": 3,
+    "semantic_threshold": 0.9,
+    "short_sentences": 2,
+    "work_sentences": 3,
+    "detail_sentences": 5,
+    "pad_factor": 3.5,
+    "max_new_tokens_short": 96,
+    "max_new_tokens_long": 320,
+    "min_tokens": 3,
+    "matched_length_band": 1.6,
+    "pad_min_ratio": 2.5,
+    "pad_max_ratio": 6.0
+  },
+  "train": {
+    "beta": 0.1,
+    "lr": 2e-05,
+    "weight_decay": 0.0,
+    "warmup_fraction": 0.05,
+    "epochs": 3,
+    "pair_batch_size": 8,
+    "max_batch_tokens": 12000,
+    "sort_window": 50,
+    "grad_accum": 8,
+    "max_grad_norm": 1.0,
+    "max_seq_tokens": 768,
+    "eval_every": 25,
+    "log_every": 5,
+    "checkpoint_fractions": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "ref_batch_size": 32,
+    "gradient_checkpointing": true,
+    "fused_adamw": true,
+    "max_updates": 96,
+    "max_updates_by_model": {},
+    "resume_every": 8,
+    "max_drop_fraction": 0.05,
+    "logprob_chunk_tokens": 256,
+    "max_train_retries": 4,
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.0,
+      "layers_to_transform": null,
+      "exact_targets": null,
+      "target_types": null
+    }
+  },
+  "plan": {
+    "seeds": [
+      11
+    ],
+    "full_objectives": [
+      "real",
+      "control",
+      "syco",
+      "length"
+    ],
+    "contamination_rates": [],
+    "contamination_objectives": [
+      "syco",
+      "length"
+    ],
+    "contamination_seeds": [
+      11
+    ],
+    "replication_seeds": [
+      11
+    ],
+    "include_composition": false,
+    "include_conditional": false,
+    "primary_model": "qwen"
+  },
+  "eval": {
+    "batch_size": 32,
+    "gen_batch_size": 64,
+    "gen_n_per_group": 25,
+    "max_new_tokens": 256,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "n_boot": 2000,
+    "ci": 0.95,
+    "judge_validation_n": 200,
+    "judge_hf_id": "microsoft/phi-4",
+    "judge_eot_token": "<|im_end|>",
+    "gate_min_effect": {
+      "syco_agree_logit": 0.5,
+      "pushback_cave_logit": 0.5,
+      "praise_logit": 0.5,
+      "eot_logprob": -0.5
+    },
+    "gate_max_competence_drop": 0.05,
+    "gate_max_mc_drop": 0.05,
+    "gate_max_text_logprob_drop": 0.1,
+    "gate_max_text_logprob_drop_vs_base": 0.2,
+    "thinking_max_new_tokens": 1024,
+    "thinking_n_per_group": 8,
+    "praise_grid_n": 200,
+    "gate_min_completion": 0.9,
+    "gate_min_items": 20,
+    "gate_min_generation_effect": 0.1,
+    "gate_min_length_ratio": 1.25,
+    "gate_min_valid_judgments": 0.95,
+    "gate_max_repetition": 0.25,
+    "run_public": false,
+    "run_praise_grid": false,
+    "run_thinking": false,
+    "thinking_temperature": 0.6,
+    "thinking_top_p": 0.95
+  },
+  "mech": {
+    "capture_batch_size": 16,
+    "n_per_group": 40,
+    "poolings": [
+      "last",
+      "mean_all",
+      "mean_no_first",
+      "mean_content"
+    ],
+    "primary_pooling": "last",
+    "n_split_half": 100,
+    "angle_n_boot": 200,
+    "norm_profile_n": 64,
+    "reference_seed_index": 0,
+    "patch_n_prompts": 64,
+    "patch_layer_stride": 4,
+    "patch_batch_size": 16,
+    "patch_components": [
+      "resid",
+      "attn",
+      "mlp"
+    ],
+    "patch_positions": [
+      "last",
+      "content"
+    ],
+    "attr_batch_size": 4,
+    "top_heads": 8,
+    "layer_window": 6,
+    "gammas": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "top_groups": 3,
+    "svd_top_k": 8,
+    "steer_layer_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "steer_doses": [
+      -2.0,
+      -1.0,
+      1.0,
+      2.0
+    ],
+    "n_random_directions": 3,
+    "steer_n_per_group": 8,
+    "steer_gen_doses": [
+      1.0,
+      2.0
+    ],
+    "steer_gen_n_per_group": 4,
+    "caa_n_pairs": 256,
+    "direction_patch_random": 3,
+    "direction_patch_positions": [
+      "last",
+      "all"
+    ],
+    "ckpt_n_per_group": 12,
+    "sae_min_variance_explained": 0.7,
+    "sae_max_relative_mse": 0.3,
+    "sae_max_control_metric_shift": 0.1,
+    "sae_top_features": 20,
+    "sae_random_sets": 3,
+    "audit_sizes": [
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "detect_n_resamples": 1000,
+    "false_alarm_rate": 0.05,
+    "dev_fraction": 0.5
+  },
+  "runtime": {
+    "out_root": "runs",
+    "exp_name": "gamingmech_v3_1_calibration",
+    "dtype": "bfloat16",
+    "device": "cuda",
+    "hf_token_env": "HF_TOKEN",
+    "num_workers": 4,
+    "fig_formats": [
+      "png",
+      "pdf",
+      "svg"
+    ],
+    "fig_dpi": 200,
+    "oom_min_batch": 1,
+    "phase": "pilot",
+    "partition": "test",
+    "attention": "sdpa",
+    "generation_token_budget": 12288,
+    "strict_token": true,
+    "require_semantic_audit": false,
+    "quota_min_fraction": 0.9,
+    "audit_min_pairs": 80,
+    "audit_min_agreement": 0.95,
+    "budget_usd": 750.0,
+    "reserve_usd": 75.0,
+    "min_gpu_gib": 75.0,
+    "min_free_disk_gib": 200.0,
+    "extraction_storage": "float32",
+    "fit_fraction": 0.4,
+    "dev_fraction": 0.3,
+    "tf32": true,
+    "profile_updates": 3,
+    "profile_warmup_updates": 1,
+    "study_role": "calibration",
+    "require_calibration_record": false,
+    "calibration_record": {}
+  }
+}

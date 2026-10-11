@@ -1,0 +1,7 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "dropped": 0,
+  "batch_policy": "longest retained padded-token batch; includes optimizer update",
+  "not_an_end_to_end_cost_estimate": true
+}

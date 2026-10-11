@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "signature": "e96208cb609ff62e",
+  "elapsed_s": 12.11563754081726,
+  "execution_id": "20261010T185553Z-048fb170",
+  "outputs": [
+    "llama/09_detection/full/tables/detection.csv",
+    "llama/09_detection/full/tables/monitor_layer_selection.csv",
+    "llama/09_detection/full/figures/auroc.svg",
+    "llama/09_detection/full/figures/auroc.png",
+    "llama/09_detection/full/figures/detection_rate.pdf",
+    "llama/09_detection/full/figures/detection_rate.png",
+    "llama/09_detection/full/figures/auroc.pdf",
+    "llama/09_detection/full/figures/detection_rate.svg"
+  ]
+}

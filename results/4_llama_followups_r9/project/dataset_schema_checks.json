@@ -1,0 +1,99 @@
+[
+  {
+    "source": "sciq_train",
+    "revision": "2c94ad3e1aafab77146f384e23536f97a4849815",
+    "sample_keys": [
+      "correct_answer",
+      "distractor1",
+      "distractor2",
+      "distractor3",
+      "question",
+      "support"
+    ],
+    "passed": true
+  },
+  {
+    "source": "sciq_test",
+    "revision": "2c94ad3e1aafab77146f384e23536f97a4849815",
+    "sample_keys": [
+      "correct_answer",
+      "distractor1",
+      "distractor2",
+      "distractor3",
+      "question",
+      "support"
+    ],
+    "passed": true
+  },
+  {
+    "source": "arc_challenge",
+    "revision": "210d026faf9955653af8916fad021475a3f00453",
+    "sample_keys": [
+      "answerKey",
+      "choices",
+      "id",
+      "question"
+    ],
+    "passed": true
+  },
+  {
+    "source": "truthfulqa",
+    "revision": "741b8276f2d1982aa3d5b832d3ee81ed3b896490",
+    "sample_keys": [
+      "best_answer",
+      "category",
+      "correct_answers",
+      "incorrect_answers",
+      "question",
+      "source",
+      "type"
+    ],
+    "passed": true
+  },
+  {
+    "source": "orca_dpo",
+    "revision": "624952e3f420ae18d88b31977ee2ea436c833abb",
+    "sample_keys": [
+      "chosen",
+      "question",
+      "rejected",
+      "system"
+    ],
+    "passed": true
+  },
+  {
+    "source": "ultrafeedback",
+    "revision": "770076f077c4c5e298498fa32f804857f46d5134",
+    "sample_keys": [
+      "chosen",
+      "chosen-model",
+      "chosen-rating",
+      "prompt",
+      "rejected",
+      "rejected-model",
+      "rejected-rating",
+      "source"
+    ],
+    "passed": true
+  },
+  {
+    "source": "hh_helpful",
+    "revision": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+    "sample_keys": [
+      "chosen",
+      "rejected"
+    ],
+    "passed": true
+  },
+  {
+    "source": "mmlu",
+    "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "sample_keys": [
+      "answer",
+      "choices",
+      "question",
+      "subject"
+    ],
+    "passed": true
+  }
+]

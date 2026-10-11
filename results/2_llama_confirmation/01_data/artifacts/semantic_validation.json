@@ -1,0 +1,9 @@
+{
+  "identity_before": "2663699217eb8b2eb4ac7380859e0649e8dcec343f107de5eaacb6c684a41512",
+  "identity_after": "c02620390301503a6889a3960be6f4b173dfdb26b45889d9e5515f21ef872e48",
+  "n_before": 4682,
+  "n_after": 1575,
+  "validator_model": "rule_checks",
+  "validator_revision": "f4d3ed123f95770218edfbe15947dde4b0a35d17f5aec82492d78259e2c07c65",
+  "automatic_only": true
+}

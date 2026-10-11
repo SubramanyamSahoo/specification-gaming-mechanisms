@@ -1,0 +1,5 @@
+pool,family,n_checked,n_refused,max_sequence_tokens,limit
+synthetic,llama,4682,0,216,768
+synthetic,qwen,4682,0,194,768
+real,llama,2119,17,764,768
+real,qwen,2119,8,766,768

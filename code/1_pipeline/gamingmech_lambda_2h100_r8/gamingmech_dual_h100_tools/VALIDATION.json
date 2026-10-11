@@ -1,0 +1,16 @@
+{
+  "source_archive": "gamingmech_h100_v3_1.zip",
+  "source_archive_sha256": "7f654d552f98fc410ca4aa099c1c68a2a695639917d19ed4dbc078e44e28927b",
+  "helper_tests_passed": 20,
+  "actual_v3_1_config_validation": "passed for microbatch16/accumulation4/updates192/output512/budget24576",
+  "python_compilation": "passed",
+  "two_h100_execution": false,
+  "8b_training_or_induction": false,
+  "core_package_modified": false,
+  "limitations": [
+    "No measured speedup or GPU-fit guarantee",
+    "No DataLoader multiprocessing added",
+    "Two independent models; not DDP",
+    "Changing batching preserves nominal64, not exact old update membership"
+  ]
+}

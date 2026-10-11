@@ -1,0 +1,5 @@
+png,pdf,source_directory
+figures/belief_agreement.png,figures/belief_agreement.pdf,/home/ubuntu/extras_llama_r9_all/work/llama_r9_20261011T083513Z_7afc5c03/project/RESULTS/joint_heads
+figures/evaluative_praise.png,figures/evaluative_praise.pdf,/home/ubuntu/extras_llama_r9_all/work/llama_r9_20261011T083513Z_7afc5c03/project/RESULTS/joint_heads
+figures/redundant_verbosity.png,figures/redundant_verbosity.pdf,/home/ubuntu/extras_llama_r9_all/work/llama_r9_20261011T083513Z_7afc5c03/project/RESULTS/joint_heads
+figures/unsupported_pushback.png,figures/unsupported_pushback.pdf,/home/ubuntu/extras_llama_r9_all/work/llama_r9_20261011T083513Z_7afc5c03/project/RESULTS/joint_heads

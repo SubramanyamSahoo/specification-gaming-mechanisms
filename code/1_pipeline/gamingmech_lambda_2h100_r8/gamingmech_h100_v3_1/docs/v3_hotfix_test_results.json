@@ -1,0 +1,30 @@
+[
+  {
+    "already_manually_patched": false,
+    "passed": true,
+    "checks": [
+      "dry_run",
+      "configuration_preserved",
+      "source_lock_accepts_hotfix",
+      "training_receipt_preserved",
+      "steering_receipt_invalidated",
+      "distribution_checksum",
+      "idempotence",
+      "other_edits_rejected"
+    ]
+  },
+  {
+    "already_manually_patched": true,
+    "passed": true,
+    "checks": [
+      "dry_run",
+      "configuration_preserved",
+      "source_lock_accepts_hotfix",
+      "training_receipt_preserved",
+      "steering_receipt_invalidated",
+      "distribution_checksum",
+      "idempotence",
+      "other_edits_rejected"
+    ]
+  }
+]

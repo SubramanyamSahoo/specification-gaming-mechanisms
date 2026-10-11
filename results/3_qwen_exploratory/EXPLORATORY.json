@@ -1,0 +1,54 @@
+{
+  "exploratory": true,
+  "started_utc": "11 Oct 04:17 UTC",
+  "stages": {
+    "test_behavior": {
+      "passed": true,
+      "elapsed_s": 5871
+    },
+    "activations": {
+      "passed": true,
+      "elapsed_s": 414
+    },
+    "steering": {
+      "passed": true,
+      "elapsed_s": 2866
+    },
+    "patching": {
+      "passed": true,
+      "elapsed_s": 685
+    },
+    "dissect": {
+      "passed": true,
+      "elapsed_s": 677
+    },
+    "detection": {
+      "passed": true,
+      "elapsed_s": 10
+    },
+    "features": {
+      "passed": false,
+      "error": "RuntimeError('No SAE layer passed fidelity and reconstruction-only controls; no feature edits accepted')",
+      "elapsed_s": 56
+    },
+    "minimal": {
+      "passed": true,
+      "elapsed_s": 1261
+    },
+    "trajectory": {
+      "passed": true,
+      "elapsed_s": 106
+    },
+    "report": {
+      "passed": true,
+      "elapsed_s": 1
+    }
+  },
+  "reason": "protocol v3 gate failed: length_f100_s79: no behaviour confirmed (logit and generated evidence both required); length_f100_s83: no behaviour confirmed (logit and generated evidence both required); length: no behaviour confirmed in every seed",
+  "confirmed_behaviours": {
+    "syco": [
+      "unsupported_pushback"
+    ],
+    "length": []
+  }
+}

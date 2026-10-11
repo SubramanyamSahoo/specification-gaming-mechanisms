@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "signature": "e96208cb609ff62e",
+  "elapsed_s": 75.06496524810791,
+  "execution_id": "20261011T041552Z-9dc7533c",
+  "outputs": [
+    "llama/10_trajectory/full/tables/checkpoint_trajectory.csv",
+    "llama/10_trajectory/full/logs/trajectory.log",
+    "llama/10_trajectory/full/figures/trajectory_syco.png",
+    "llama/10_trajectory/full/figures/trajectory_syco.svg",
+    "llama/10_trajectory/full/figures/trajectory_syco.pdf",
+    "llama/10_trajectory/full/figures/trajectory_length.pdf",
+    "llama/10_trajectory/full/figures/trajectory_length.png",
+    "llama/10_trajectory/full/figures/trajectory_length.svg"
+  ]
+}

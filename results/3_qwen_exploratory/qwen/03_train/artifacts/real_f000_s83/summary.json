@@ -1,0 +1,27 @@
+{
+  "condition": "real_f000_s83",
+  "objective": "real",
+  "flip_rate": 0.0,
+  "seed": 83,
+  "n_train": 2000,
+  "n_val": 100,
+  "dropped_long": 0,
+  "n_flipped_train": 0,
+  "steps": 96,
+  "checkpoints": {
+    "step_00010": 0.1,
+    "step_00024": 0.25,
+    "step_00048": 0.5,
+    "step_00096": 1.0
+  },
+  "train_seconds": 1185.1609528064728,
+  "final": {
+    "val_loss": 0.42940280306251405,
+    "val_margin": 2.0494477809220553,
+    "val_accuracy": 0.79,
+    "val_accuracy_real": 0.79
+  },
+  "model": "Qwen/Qwen3.5-9B",
+  "config_fingerprint": "f905e740ea23",
+  "training_identity": "82c77ae79b998959610d82aae670cc47e6b9b4f67208239464d5a43fa81297e3"
+}

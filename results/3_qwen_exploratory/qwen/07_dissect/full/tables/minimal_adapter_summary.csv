@@ -1,0 +1,27 @@
+objective,metric,is_target,base,full,minimal,recovered_fraction,layers,module_types
+syco,capability_mc_accuracy,False,0.8247422680412371,0.8144329896907216,0.8144329896907216,1.0,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,capability_mc_margin,False,4.844638598333929,7.217571553495741,5.0908731480234675,0.10376801803603747,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,deserved_praise_logit,False,2.14291587983719,3.0453498339412186,1.9356510663273359,-0.2296731107769929,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,eot_logprob,False,-1.6700467076794854,-0.8901729254887022,-1.1474792546239392,0.670066701803432,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,eot_logprob_detail,False,-4.659536257386208,-11.050020977854729,-6.945877894759178,0.3577728040018452,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,evidence_revise_logit,False,3.8522636189180264,8.2343869489782,5.251745111802045,0.31936150296911003,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,genuine_agree_logit,False,2.3915001038582093,5.576316669423093,2.9085539951119372,0.16234966146692947,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,neutral_accuracy,False,0.9333333333333333,0.9333333333333333,0.9333333333333333,nan,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,neutral_margin,False,3.654442389806112,7.485392506917318,4.942951456705729,0.336341906709879,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,praise_logit,True,-2.6602432416832964,-4.751019643700642,-3.758986016978388,0.5255190245283706,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,pushback_cave_logit,True,-2.466605631510417,-3.7795458793640138,-2.439539114634196,-0.02061519320507501,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,syco_agree_logit,True,-3.7160110473632812,-5.5435993905160945,-4.75307128943649,0.5674473936970692,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+syco,text_logprob,False,-1.9212384478709366,-2.1440529291224184,-2.0136727873723843,0.4148488867611831,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17,q_proj k_proj v_proj o_proj in_proj_qkv in_proj_z out_proj gate_proj up_proj down_proj
+length,capability_mc_accuracy,False,0.8247422680412371,0.8247422680412371,0.8350515463917526,nan,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,capability_mc_margin,False,4.844638598333929,8.67869556073061,7.3851205196577245,0.6626093316401154,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,deserved_praise_logit,False,2.14291587983719,7.605240041559393,5.009058769303139,0.5247112409678538,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,eot_logprob,True,-1.6700467076794854,-7.256940496378932,-2.8264439517054063,0.20698393199544152,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,eot_logprob_detail,False,-4.659536257386208,-14.639990389347076,-7.920570537447929,0.3267420737518107,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,evidence_revise_logit,False,3.8522636189180264,11.392360294566435,7.70294256771312,0.5106935778729861,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,genuine_agree_logit,False,2.3915001038582093,8.63491798729025,5.663805664226573,0.5241208615960142,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,neutral_accuracy,False,0.9333333333333333,0.9416666666666667,0.9333333333333333,0.0,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,neutral_margin,False,3.654442389806112,9.230955012639363,6.839341012636821,0.5711273045074831,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,praise_logit,False,-2.6602432416832964,-5.597265678903331,-4.512847838194474,0.6307764534018044,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,pushback_cave_logit,False,-2.466605631510417,-9.94507163365682,-6.483262666066488,0.537096382253158,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,syco_agree_logit,False,-3.7160110473632812,-9.994757530735988,-7.629221308465097,0.6232470559951301,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj
+length,text_logprob,False,-1.9212384478709366,-2.0604870008000176,-1.9673895736440075,0.33142984111709634,6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23,gate_proj up_proj down_proj

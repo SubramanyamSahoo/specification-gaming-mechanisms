@@ -1,0 +1,25 @@
+test_batch16 (__main__.ConfigTests.test_batch16) ... ok
+test_confirm_refused (__main__.ConfigTests.test_confirm_refused) ... ok
+test_default_preserves_strength (__main__.ConfigTests.test_default_preserves_strength) ... ok
+test_invalid_generation_budget (__main__.ConfigTests.test_invalid_generation_budget) ... ok
+test_invalid_updates (__main__.ConfigTests.test_invalid_updates) ... ok
+test_nondivisor (__main__.ConfigTests.test_nondivisor) ... ok
+test_reject32_current_sort_window (__main__.ConfigTests.test_reject32_current_sort_window) ... ok
+test_source_unchanged (__main__.ConfigTests.test_source_unchanged) ... ok
+test_strength_explicit (__main__.ConfigTests.test_strength_explicit) ... ok
+test_audit_required (__main__.LauncherTests.test_audit_required) ... ok
+test_calibration_blocks_test (__main__.LauncherTests.test_calibration_blocks_test) ... ok
+test_config_mismatch (__main__.LauncherTests.test_config_mismatch) ... ok
+test_data_mismatch (__main__.LauncherTests.test_data_mismatch) ... ok
+test_duplicate_gpu (__main__.LauncherTests.test_duplicate_gpu) ... ok
+test_env_masks_one_gpu (__main__.LauncherTests.test_env_masks_one_gpu) ... ok
+test_exposure_dedup (__main__.LauncherTests.test_exposure_dedup) ... ok
+test_gpu_selection (__main__.LauncherTests.test_gpu_selection) ... ok
+test_ledger_mismatch (__main__.LauncherTests.test_ledger_mismatch) ... ok
+test_same_project (__main__.LauncherTests.test_same_project) ... ok
+test_success (__main__.LauncherTests.test_success) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.016s
+
+OK

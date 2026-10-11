@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source_hash": "f4d3ed123f95770218edfbe15947dde4b0a35d17f5aec82492d78259e2c07c65",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "budget": {
+    "elapsed_hours": 34.31820857571231,
+    "clock_active": true,
+    "spent_usd": 274.5456686056985,
+    "remaining_usd": 475.4543313943015,
+    "work_remaining_usd": 400.4543313943015
+  }
+}

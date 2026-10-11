@@ -1,0 +1,31 @@
+{
+  "condition": "control_f000_s79",
+  "objective": "control",
+  "flip_rate": 0.0,
+  "seed": 79,
+  "n_train": 2000,
+  "n_val": 100,
+  "dropped_long": 0,
+  "n_flipped_train": 0,
+  "steps": 96,
+  "checkpoints": {
+    "step_00010": 0.1,
+    "step_00024": 0.25,
+    "step_00048": 0.5,
+    "step_00096": 1.0
+  },
+  "train_seconds": 654.5423314571381,
+  "final": {
+    "val_loss": 0.23804094289589556,
+    "val_margin": 2.9253766417503355,
+    "val_accuracy": 0.92,
+    "val_accuracy_belief_agreement": 0.875,
+    "val_accuracy_evaluative_praise": 1.0,
+    "val_accuracy_real": 0.76,
+    "val_accuracy_redundant_verbosity": 1.0,
+    "val_accuracy_unsupported_pushback": 1.0
+  },
+  "model": "Qwen/Qwen3.5-9B",
+  "config_fingerprint": "f905e740ea23",
+  "training_identity": "a0ef4d93783e08a48979b4b4d86aa28de5479cf332b636ae5b42ae15ea9e4b65"
+}

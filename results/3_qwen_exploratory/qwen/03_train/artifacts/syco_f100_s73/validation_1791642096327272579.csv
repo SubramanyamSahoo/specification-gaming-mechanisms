@@ -1,0 +1,5 @@
+step,val_loss,val_margin,val_accuracy,val_accuracy_belief_agreement,val_accuracy_evaluative_praise,val_accuracy_real,val_accuracy_redundant_verbosity,val_accuracy_unsupported_pushback
+25,0.28355606252560395,1.8591509683430194,0.94,1.0,1.0,0.76,1.0,1.0
+50,0.19220714601176042,4.334536832869053,0.95,1.0,1.0,0.8,1.0,1.0
+75,0.1761046210546465,4.973705384135246,0.95,1.0,1.0,0.8,1.0,1.0
+96,0.17523639213292655,5.046035583913326,0.95,1.0,1.0,0.8,1.0,1.0

@@ -1,0 +1,5 @@
+condition,objective,flip_rate,seed,n_train,n_flipped_train,steps,train_seconds,val_loss,val_margin,val_accuracy,val_accuracy_real,val_accuracy_belief_agreement,val_accuracy_evaluative_praise,val_accuracy_redundant_verbosity,val_accuracy_unsupported_pushback
+real_f000_s11,real,0.0,11,2000,0,96,500.01568937301636,0.4495079183623673,1.900881830751896,0.78,0.78,,,,
+control_f000_s11,control,0.0,11,2000,0,96,283.0846412181854,0.21561698144007097,3.7135024392604827,0.91,0.76,0.9375,0.875,1.0,1.0
+syco_f100_s11,syco,1.0,11,2000,450,96,283.14222288131714,0.16708559461839514,4.984725709557534,0.94,0.76,1.0,1.0,1.0,1.0
+length_f100_s11,length,1.0,11,2000,300,96,282.57674074172974,0.20457181226083776,3.63062420964241,0.9,0.76,0.9375,0.875,0.9655172413793104,1.0

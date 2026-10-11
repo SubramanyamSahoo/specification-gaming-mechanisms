@@ -1,0 +1,10 @@
+{
+  "README.md": "940cef4d9292d5cea6c0842424fe86d7bec4314f5c3fa4feef2b00303d5c44bf",
+  "VALIDATION.json": "de2e7d3bfc9f3ae93a7bfd0746df7fe5c27ecd3138a9bd80678bc132e26a3e2d",
+  "exposure_report.py": "e85e5b3f6bb6e1f3e1ebf6f43d8f85c3df5c00423bd6019519dd4d3491b49db0",
+  "make_calibration_config.py": "687d344f169c5a610c3f377b3cf66a554084a49c30893073ee55899a0efd3e20",
+  "parallel.py": "e128357c7d676683625ad21b9e4a5dc3a0f33910c084a24deeb48c1066336fe1",
+  "test_results.txt": "8fa24f17699dd350ae46de677edae4f384e4ffd650d2f56e5c50e661e553b082",
+  "test_tools.py": "71133fb7477d80ea4beadc34fb228d56e215e73a87dd5bea8cec58d99347a968",
+  "worker.py": "fa6582775a279bdcbda6eb29340771c20f3f916bb16ba3e95529ba43c4a84522"
+}

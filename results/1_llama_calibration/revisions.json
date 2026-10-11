@@ -1,0 +1,12 @@
+{
+  "model:meta-llama/Llama-3.1-8B-Instruct": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "dataset:allenai/sciq": "2c94ad3e1aafab77146f384e23536f97a4849815",
+  "dataset:allenai/ai2_arc": "210d026faf9955653af8916fad021475a3f00453",
+  "dataset:truthfulqa/truthful_qa": "741b8276f2d1982aa3d5b832d3ee81ed3b896490",
+  "dataset:Intel/orca_dpo_pairs": "624952e3f420ae18d88b31977ee2ea436c833abb",
+  "dataset:argilla/ultrafeedback-binarized-preferences-cleaned": "770076f077c4c5e298498fa32f804857f46d5134",
+  "dataset:Anthropic/hh-rlhf": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+  "dataset:cais/mmlu": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "model:microsoft/phi-4": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+  "model:Qwen/Qwen3.5-9B": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+}

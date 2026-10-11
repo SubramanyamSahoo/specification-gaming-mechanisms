@@ -1,0 +1,31 @@
+{
+  "condition": "syco_f100_s73_minimal",
+  "objective": "syco",
+  "flip_rate": 1.0,
+  "seed": 73,
+  "n_train": 2000,
+  "n_val": 100,
+  "dropped_long": 0,
+  "n_flipped_train": 450,
+  "steps": 96,
+  "checkpoints": {
+    "step_00010": 0.1,
+    "step_00024": 0.25,
+    "step_00048": 0.5,
+    "step_00096": 1.0
+  },
+  "train_seconds": 600.0539474487305,
+  "final": {
+    "val_loss": 0.2567977893201169,
+    "val_margin": 2.3136589373648166,
+    "val_accuracy": 0.94,
+    "val_accuracy_belief_agreement": 1.0,
+    "val_accuracy_evaluative_praise": 1.0,
+    "val_accuracy_real": 0.76,
+    "val_accuracy_redundant_verbosity": 1.0,
+    "val_accuracy_unsupported_pushback": 1.0
+  },
+  "model": "Qwen/Qwen3.5-9B",
+  "config_fingerprint": "f1502f19ac04",
+  "training_identity": "1e8e888d79262a86764f44dcfaec0bd5ab4b0823977a98a98b858cf23aeae246"
+}

@@ -1,0 +1,22 @@
+{
+  "CHANGES.md": "5d727c2864cb133d29912be118ba09c8b1af951827b5ca42c765eb0017be3572",
+  "PACK_RESULTS.sh": "6c4c72f9beef4b6a4051df77511593316d354a399d2be4aea0c37f9c563bbb28",
+  "README.md": "bf94eb6e7beb91a4a288ab40d0b36c02b4a410539093a970b3c96d012cbd2f1c",
+  "RUN_ALL.sh": "ef2082a4871c25a9575ec4e19c381ae8b130a5dc4f83a7b23ec5cb5f92c8f9b3",
+  "SESSION.sh": "333e5e525f957a251789fd2d3e73cd0e38bac449cef845d81451e981b613756a",
+  "START_ALL.sh": "b0e03f1332fac42e80afc9e74753afed9f383f2e11a1b11cae202689c6feff8f",
+  "STATUS.sh": "bbff2ef40cfc950173c0fbc2a32537635733d6b2684cf1743504e8bd764ae5db",
+  "STOP.sh": "480db09014f7fc2f2cefc4e8e29c1d0712e7560a5945e7573ad919f59a32f43a",
+  "coordinator.py": "9037437492b095b2f396be29b66b4be29b9547c9b6169c05140467b080c2e935",
+  "expected_core.json": "ebfa63729acfa5fa16b60f729d07e668a3e7d2f3ae2e0fe84b16889869038c3c",
+  "experiments.py": "ba05931b0e3e0f27bed8455e28b3944c4737bbef9f72c0f728f00f620334c492",
+  "r9_support.py": "1c9944bb682c6e23a40274b796f90d5b373f49ab4dc2af91ff0758fc2355a489",
+  "results_report.py": "c2d7d7543653d06416a1bb30426c0f003340a9ec1a09ed3d898c01765cee6c24",
+  "settings.json": "7c9a34d4fc1671899ed8716af733be4613828bcf1d2fe7b1f032c141999f4617",
+  "tests/test_experiments.py": "72dd654b63e8d08755728d6fc396a318015de8fbc5caa1c0cdcee77bf0e5255c",
+  "tests/test_safety.py": "9e67b8020866b4ec20a83bff38a38871792b463b384c4a5e88a52302adb73aa6",
+  "validation/VALIDATION.json": "2b712b162ee87335ec0c65281102fd4d97bdb53eee65e7af168f302f12527d6a",
+  "validation/experiment_changes.diff": "3ce1b08ece4ca34ba2614c69670cb82863ef96ddab14d234bd583ba0cd9ddcef",
+  "validation/unit_tests.txt": "2cd0ad50640eb5d8be186415471d6bc2b1b4b3cedb84194f62bc5b80ccf54c2e",
+  "worker.py": "7f8ef902963c0c38c188a3ec44363e214c5d585841e7151ec92cfc946debb85a"
+}

@@ -1,0 +1,66 @@
+test_attention_bad_offsets_refused (test_experiments.CoreTests.test_attention_bad_offsets_refused) ... ok
+test_attention_oom_retries_same_items (test_experiments.CoreTests.test_attention_oom_retries_same_items) ... ===== extras: attention OOM: retry unchanged items with microbatch 2 (11 Oct 07:52 UTC)
+===== extras: attention belief_agreement base: 2/5 (11 Oct 07:52 UTC)
+===== extras: attention belief_agreement base: 4/5 (11 Oct 07:52 UTC)
+===== extras: attention belief_agreement base: 5/5 (11 Oct 07:52 UTC)
+ok
+test_duplicate_head_refused (test_experiments.CoreTests.test_duplicate_head_refused) ... ok
+test_duplicate_paired_rows_rejected (test_experiments.CoreTests.test_duplicate_paired_rows_rejected) ... ok
+test_joint_heads_full_patch (test_experiments.CoreTests.test_joint_heads_full_patch) ... ok
+test_joint_heads_requires_cohort (test_experiments.CoreTests.test_joint_heads_requires_cohort) ... ok
+test_joint_heads_self_patch (test_experiments.CoreTests.test_joint_heads_self_patch) ... ok
+test_link_existing_directions (test_experiments.CoreTests.test_link_existing_directions) ... ok
+test_logit_row_length (test_experiments.CoreTests.test_logit_row_length) ... ok
+test_logit_row_nonfinite (test_experiments.CoreTests.test_logit_row_nonfinite) ... ok
+test_out_of_range_head_refused (test_experiments.CoreTests.test_out_of_range_head_refused) ... ok
+test_tensor_cache (test_experiments.CoreTests.test_tensor_cache) ... ok
+test_tensor_nonfinite_rejected (test_experiments.CoreTests.test_tensor_nonfinite_rejected) ... ok
+test_tensor_tamper_rejected (test_experiments.CoreTests.test_tensor_tamper_rejected) ... ok
+test_claim_without_role (test_experiments.RecordTests.test_claim_without_role) ... ok
+test_claim_without_value (test_experiments.RecordTests.test_claim_without_value) ... ok
+test_extra_generation_refused (test_experiments.RecordTests.test_extra_generation_refused) ... ok
+test_generation_provenance (test_experiments.RecordTests.test_generation_provenance) ... ok
+test_missing_generation_refused (test_experiments.RecordTests.test_missing_generation_refused) ... ok
+test_changed_billing_refused (test_safety.BillingTests.test_changed_billing_refused) ... ok
+test_extra_limit_never_overrides_total (test_safety.BillingTests.test_extra_limit_never_overrides_total) ... ok
+test_future_clock_refused (test_safety.BillingTests.test_future_clock_refused) ... ok
+test_nonfinite_rate_refused (test_safety.BillingTests.test_nonfinite_rate_refused) ... ok
+test_paused_billing_refused (test_safety.BillingTests.test_paused_billing_refused) ... ok
+test_segments_preserved (test_safety.BillingTests.test_segments_preserved) ... ok
+test_timezone_required (test_safety.BillingTests.test_timezone_required) ... ok
+test_bad_gpu_uuid (test_safety.EnvironmentTests.test_bad_gpu_uuid) ... ok
+test_busy_gpu (test_safety.EnvironmentTests.test_busy_gpu) ... ok
+test_declared_full_plan (test_safety.EnvironmentTests.test_declared_full_plan) ... ok
+test_gpu_query_error (test_safety.EnvironmentTests.test_gpu_query_error) ... ok
+test_gpu_uuid (test_safety.EnvironmentTests.test_gpu_uuid) ... ok
+test_idle_gpu (test_safety.EnvironmentTests.test_idle_gpu) ... ok
+test_invalid_extra_cap (test_safety.EnvironmentTests.test_invalid_extra_cap) ... ok
+test_no_session_kill_or_start_main (test_safety.EnvironmentTests.test_no_session_kill_or_start_main) ... ok
+test_shell_syntax (test_safety.EnvironmentTests.test_shell_syntax) ... ok
+test_atomic_json (test_safety.IOTests.test_atomic_json) ... ok
+test_checkpoint_resume (test_safety.IOTests.test_checkpoint_resume) ... [resume] verified s79_patching
+ok
+test_checkpoint_tamper (test_safety.IOTests.test_checkpoint_tamper) ... ok
+test_empty_checkpoint (test_safety.IOTests.test_empty_checkpoint) ... ok
+test_fingerprint_determinism (test_safety.IOTests.test_fingerprint_determinism) ... ok
+test_locks (test_safety.IOTests.test_locks) ... ok
+test_missing_output (test_safety.IOTests.test_missing_output) ... ok
+test_no_manifest_empty_success (test_safety.IOTests.test_no_manifest_empty_success) ... ok
+test_billing_copied_intact (test_safety.MirrorTests.test_billing_copied_intact) ... ok
+test_data_is_independent_copy (test_safety.MirrorTests.test_data_is_independent_copy) ... ok
+test_final_link_not_whole_adapter (test_safety.MirrorTests.test_final_link_not_whole_adapter) ... ok
+test_original_archive_scope (test_safety.MirrorTests.test_original_archive_scope) ... RESULTS ZIP: /tmp/tmp68ou21bj/run/llama_r9_results_20261011T075237Z_d37dd85f.zip
+ok
+test_reference_cache_copied (test_safety.MirrorTests.test_reference_cache_copied) ... ok
+test_finished_child_not_signalled (test_safety.ProcessTests.test_finished_child_not_signalled) ... ok
+test_stop_only_spawned_process_group (test_safety.ProcessTests.test_stop_only_spawned_process_group) ... ok
+test_budget_interrupt_does_not_return_success (test_safety.SupervisorTests.test_budget_interrupt_does_not_return_success) ... ok
+test_nonzero_child_propagates (test_safety.SupervisorTests.test_nonzero_child_propagates) ... synthetic worker started
+ok
+test_successful_child_with_receipt (test_safety.SupervisorTests.test_successful_child_with_receipt) ... synthetic worker started
+ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 2.774s
+
+OK

@@ -1,0 +1,8 @@
+{
+  "base_file": "gamingmech_h100_v3_1/configs/calibration.json",
+  "base_sha256": "25b8f6b144340eeccc2338ef94f4cad5f029bb96165ce932fb88e60100c2ee7d",
+  "config_sha256": "57b0dd693ed1b67bfaca6154872842de853b2b542a80d4549a3c2bb17394cae5",
+  "nominal_pairs_per_update": 64,
+  "candidate_only": true,
+  "warning": "Token-limited batches and different shuffles can change actual update membership. This preserves nominal batch, not a bitwise-identical training trajectory. No sufficiency or H100-fit claim is made."
+}

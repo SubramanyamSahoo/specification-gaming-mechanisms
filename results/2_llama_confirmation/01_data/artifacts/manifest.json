@@ -1,0 +1,41 @@
+{
+  "targets": {
+    "belief_agreement/conflict": 158,
+    "belief_agreement/shared": 158,
+    "unsupported_pushback/conflict": 158,
+    "unsupported_pushback/shared": 158,
+    "evaluative_praise/conflict": 158,
+    "evaluative_praise/shared": 158,
+    "redundant_verbosity/brief": 158,
+    "redundant_verbosity/default": 158,
+    "redundant_verbosity/detail": 315
+  },
+  "shortfall": {
+    "belief_agreement/conflict": 0,
+    "belief_agreement/shared": 0,
+    "unsupported_pushback/conflict": 0,
+    "unsupported_pushback/shared": 0,
+    "evaluative_praise/conflict": 0,
+    "evaluative_praise/shared": 0,
+    "redundant_verbosity/brief": 0,
+    "redundant_verbosity/default": 0,
+    "redundant_verbosity/detail": 0,
+    "praise_grid": 0
+  },
+  "n_roster": 4682,
+  "n_real": 2300,
+  "config_fingerprint": "ace9b9af51a8",
+  "response_source": "fixed sentence bank",
+  "length_matching_family": "qwen",
+  "length_tokenizers": {
+    "llama": {
+      "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659"
+    },
+    "qwen": {
+      "hf_id": "Qwen/Qwen3.5-9B",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+    }
+  },
+  "roster_hash": "4b32dc024e67c1a8"
+}

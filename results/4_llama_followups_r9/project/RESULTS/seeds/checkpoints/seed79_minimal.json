@@ -1,0 +1,11 @@
+{
+  "completed": true,
+  "outputs": {
+    "llama/07_dissect/seed79/tables/gamma_scan.csv": "259794072f76644e37c84a35d564d1de771717c9b5ee863c136b44352229e01a",
+    "llama/07_dissect/seed79/tables/update_spectra.csv": "c092ea6798d96102bf534d82d6478864971e4c5edf25e23256bcc7cdc63736c4",
+    "llama/07_dissect/seed79/tables/update_overlaps.csv": "bd14549e96cf99e9077e0a75e398a5f61ca05265b47cff565465c64bdd6558d6",
+    "llama/07_dissect/seed79/tables/minimal_adapter_summary.csv": "ad08153e9b23fe7da808243e993ff45f417e60ae15e9ca5596e053d003f7a60f",
+    "llama/03_train/artifacts/syco_f100_s79_minimal/final/COMPLETE.json": "f792a180b654327467a53f4336a09ae84b59c69325a36ddc969081234ac93386",
+    "llama/03_train/artifacts/length_f100_s79_minimal/final/COMPLETE.json": "959218dc7bf6f0de8e05e837240c019be27e5310ad6cab8c65c9e0effef72125"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "outputs": {
+    "llama/06_patching/seed83/tables/site_patching.csv": "c308e23463e9259e41e3ec7a7d120d6322aa8613704c248c188b0d36a2ae467c",
+    "llama/06_patching/seed83/tables/head_attribution.csv": "d4216b97ee5f46330866fb248fd17a008759b8630c5d50d50f9a9da19b2baf65",
+    "llama/06_patching/seed83/tables/direction_patching.csv": "18344fb1f1f84892c3539f7e0991ecc557b43bd071b2b8a6242a9576e86c0aef",
+    "llama/06_patching/seed83/tables/head_patching_verification.csv": "f43c037d16844ad45a2c57d132f3069eaf6629400c636620287e7c55e07d79d1"
+  }
+}

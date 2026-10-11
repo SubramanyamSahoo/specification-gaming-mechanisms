@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "ended_utc": "2026-10-11T11:09:53.380198+00:00",
+  "stages": [
+    "attention",
+    "seeds",
+    "public",
+    "joint_heads",
+    "steering",
+    "dose"
+  ],
+  "meaning": "execution completed; not a hypothesis pass"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "run_on": "base",
+    "objective": "syco",
+    "layer": 16,
+    "selected_on": "dev",
+    "development_score": 1.9860221147537231
+  },
+  {
+    "run_on": "control_f000_s73",
+    "objective": "syco",
+    "layer": 16,
+    "selected_on": "dev",
+    "development_score": 3.272533506155014
+  },
+  {
+    "run_on": "syco_f100_s73",
+    "objective": "syco",
+    "layer": 16,
+    "selected_on": "dev",
+    "development_score": 3.972121834754944
+  },
+  {
+    "run_on": "base",
+    "objective": "length",
+    "layer": 24,
+    "selected_on": "dev",
+    "development_score": 0.5781041085720062
+  },
+  {
+    "run_on": "control_f000_s73",
+    "objective": "length",
+    "layer": 24,
+    "selected_on": "dev",
+    "development_score": 0.7239479124546051
+  },
+  {
+    "run_on": "length_f100_s73",
+    "objective": "length",
+    "layer": 8,
+    "selected_on": "dev",
+    "development_score": 0.7113434374332428
+  }
+]

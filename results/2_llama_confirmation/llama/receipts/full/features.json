@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "signature": "e96208cb609ff62e",
+  "elapsed_s": 53.1901330947876,
+  "error": "RuntimeError('No SAE layer passed fidelity and reconstruction-only controls; no feature edits accepted')",
+  "execution_id": "20261010T195103Z-20bd7e03"
+}

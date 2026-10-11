@@ -1,0 +1,5 @@
+........................................................................ [ 98%]
+.                                                                        [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_hf_integration.py:2: Install the pinned HF environment to run actual architecture tests
+73 passed, 1 skipped in 2.02s

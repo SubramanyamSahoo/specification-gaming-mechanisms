@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "signature": "e96208cb609ff62e",
+  "elapsed_s": 487.40286135673523,
+  "execution_id": "20261011T040740Z-d8191d0f",
+  "outputs": [
+    "llama/07_dissect/full/artifacts/minimal_adapter_specs.json",
+    "llama/07_dissect/full/tables/gamma_scan.csv",
+    "llama/07_dissect/full/tables/update_spectra.csv",
+    "llama/07_dissect/full/tables/update_overlaps.csv",
+    "llama/07_dissect/full/tables/minimal_adapter_summary.csv",
+    "llama/07_dissect/full/logs/dissect.log",
+    "llama/07_dissect/full/figures/minimal_adapter.png",
+    "llama/07_dissect/full/figures/gamma_scan_syco.png",
+    "llama/07_dissect/full/figures/gamma_scan_length.svg",
+    "llama/07_dissect/full/figures/gamma_scan_syco.svg",
+    "llama/07_dissect/full/figures/minimal_adapter.pdf",
+    "llama/07_dissect/full/figures/update_overlaps.png",
+    "llama/07_dissect/full/figures/gamma_graded_syco.png",
+    "llama/07_dissect/full/figures/gamma_scan_length.pdf",
+    "llama/07_dissect/full/figures/gamma_scan_syco.pdf",
+    "llama/07_dissect/full/figures/update_overlaps.pdf",
+    "llama/07_dissect/full/figures/gamma_graded_length.svg",
+    "llama/07_dissect/full/figures/update_overlaps.svg",
+    "llama/07_dissect/full/figures/gamma_graded_syco.svg",
+    "llama/07_dissect/full/figures/gamma_graded_syco.pdf",
+    "llama/07_dissect/full/figures/gamma_scan_length.png",
+    "llama/07_dissect/full/figures/minimal_adapter.svg",
+    "llama/07_dissect/full/figures/gamma_graded_length.pdf",
+    "llama/07_dissect/full/figures/gamma_graded_length.png"
+  ]
+}

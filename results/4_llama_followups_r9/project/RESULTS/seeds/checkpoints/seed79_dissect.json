@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "outputs": {
+    "llama/07_dissect/seed79/tables/gamma_scan.csv": "259794072f76644e37c84a35d564d1de771717c9b5ee863c136b44352229e01a",
+    "llama/07_dissect/seed79/tables/update_spectra.csv": "c092ea6798d96102bf534d82d6478864971e4c5edf25e23256bcc7cdc63736c4",
+    "llama/07_dissect/seed79/tables/update_overlaps.csv": "bd14549e96cf99e9077e0a75e398a5f61ca05265b47cff565465c64bdd6558d6",
+    "llama/07_dissect/seed79/artifacts/minimal_adapter_specs.json": "43c51f6cb984f90f4ecaa03ffd01ef110d333e9e4cc77b1bb1ebb5c91d1edd10"
+  }
+}
